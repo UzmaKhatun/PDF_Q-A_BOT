@@ -1,0 +1,12 @@
+streamlit
+pdfplumber
+sentence-transformers
+faiss-cpu
+langchain
+langchain_groq
+groq
+numpy
+dotenv
+datetime
+time
+asyncio
