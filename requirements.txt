@@ -3,10 +3,6 @@ pdfplumber
 sentence-transformers
 faiss-cpu
 langchain
-langchain_groq
-groq
+langchain-groq
 numpy
-dotenv
-datetime
-time
-asyncio
+python-dotenv
