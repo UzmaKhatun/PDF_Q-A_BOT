@@ -30,7 +30,7 @@ An intelligent AI-powered chatbot that allows users to **upload any PDF** and **
 
 ## 📷 Demo
 
-![Screenshot](screenshots/overview.png)
+![Screenshot](Screenshot.png)
 
 🔗 *Watch the [project demo](https://pdf-que-ans-bot-webapp.streamlit.app/)*
 
