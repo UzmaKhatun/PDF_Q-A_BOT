@@ -61,3 +61,10 @@ An intelligent AI-powered chatbot that allows users to **upload any PDF** and **
   ````
   GROQ_API_KEY=your_groq_key_here
 - Optional parameters like chunk size, overlap, embedding model, etc., can be configured in config.py or directly in app.py.
+
+### 📂 Folder Structure
+📁 PDF_Q-A_BOT/
+- ├── app.py               # Main Streamlit app
+- ├── qa_engine.py         # Core Q&A logic
+- ├── requirements.txt     # Dependencies
+- └── README.md            # Project documentation
