@@ -12,8 +12,6 @@ An intelligent AI-powered chatbot that allows users to **upload any PDF** and **
 - 📊 Token usage and document statistics
 - 📝 Tips for asking better questions
 - 💬 Chat history with real-time LLM responses
-- 🔐 API key authentication (user provides Groq API key)
-- 📁 Session activity logging
 
 ---
 
@@ -34,7 +32,7 @@ An intelligent AI-powered chatbot that allows users to **upload any PDF** and **
 
 ![Screenshot](screenshots/overview.png)
 
-🔗 *Watch the [project demo](#) (LinkedIn/YouTube link here)*
+🔗 *Watch the [project demo](#)*
 
 ---
 
@@ -44,3 +42,8 @@ An intelligent AI-powered chatbot that allows users to **upload any PDF** and **
    ```bash
    git clone https://github.com/your-username/pdf_que_ans_bot.git
    cd pdf_que_ans_bot
+   
+2. **Create a virtual environment**
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
