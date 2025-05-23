@@ -32,7 +32,7 @@ An intelligent AI-powered chatbot that allows users to **upload any PDF** and **
 
 ![Screenshot](screenshots/overview.png)
 
-🔗 *Watch the [project demo](#)*
+🔗 *Watch the [project demo](https://pdf-que-ans-bot-webapp.streamlit.app/)*
 
 ---
 
@@ -40,10 +40,24 @@ An intelligent AI-powered chatbot that allows users to **upload any PDF** and **
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/pdf_que_ans_bot.git
+   git clone https://github.com/UzmaKhatun/PDF_Q-A_BOT.git
    cd pdf_que_ans_bot
    
 2. **Create a virtual environment**
    ```
    python -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. **Install dependencies**
+   ```
+   pip install -r requirements.txt
+
+4. **Run the Streamlit app**
+   ```
+   streamlit run app.py
+
+#### Configuration
+- You can set the api_key manually or use .env for security:
+  ````
+  GROQ_API_KEY=your_groq_key_here
+- Optional parameters like chunk size, overlap, embedding model, etc., can be configured in config.py or directly in app.py.
