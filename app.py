@@ -5,16 +5,8 @@ import streamlit as st
 import tempfile
 import os
 from datetime import datetime
-import requests
 
 from qa_engine import load_pdf_text, chunk_text, embed_chunks, retrieve_relevant_chunks, answer_question
-
-from dotenv import load_dotenv
-load_dotenv()
-import os
-
-# Replace this with your Google Apps Script webhook URL
-GOOGLE_SHEET_WEBHOOK_URL = os.getenv("G_URL")
 
 # Fix for Windows + Python 3.8+
 if sys.platform.startswith('win') and sys.version_info >= (3, 8):
@@ -516,16 +508,6 @@ if st.session_state.pdf_processed:
                 'answer': answer,
                 'timestamp': datetime.now().strftime("%H:%M:%S")
             })
-
-            # Log interaction to Google Sheet
-            tracking_data = {
-                "query": query,
-                "response": answer
-            }
-            try:
-                response = requests.post(GOOGLE_SHEET_WEBHOOK_URL, json=tracking_data)
-            except Exception as e:
-                pass  # Fail silently
     
     # Display chat history
     if st.session_state.chat_history:
