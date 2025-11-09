@@ -3,6 +3,7 @@ pdfplumber
 sentence-transformers
 faiss-cpu
 langchain
+langchain-community
 langchain-groq
 numpy
 python-dotenv
