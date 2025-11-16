@@ -2,9 +2,9 @@ streamlit
 pdfplumber
 sentence-transformers
 faiss-cpu
-langchain
-langchain-core
-langchain-community
+langchain==0.2.7
+langchain-core==0.2.14
+langchain-community==0.2.5
 langchain-groq
 numpy
 python-dotenv
