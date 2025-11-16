@@ -2,7 +2,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from sentence_transformers import SentenceTransformer
-from langchain.prompts import PromptTemplate
+# from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate   # updated version for prompt template
 from langchain.schema import Document
 from langchain_groq import ChatGroq
 import numpy as np
